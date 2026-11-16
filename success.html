@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заявка отправлена — SVR</title>
+  <meta name="description" content="Заявка в магазин SVR принята: консультант перезвонит в течение 15 минут.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+  <header class="site-header" id="top">
+    <div class="site-header__inner container">
+      <a class="logo site-header__logo" href="index.html" aria-label="SVR — на главную">SVR</a>
+      <!-- Мобильное меню: Popover API, работает без JavaScript -->
+      <button class="site-header__menu-button" type="button" popovertarget="site-nav">
+        <svg class="site-header__menu-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Меню</span>
+      </button>
+      <nav class="site-nav site-header__nav" id="site-nav" popover aria-label="Основное меню">
+        <div class="site-nav__head">
+          <span class="site-nav__caption">Меню</span>
+          <button class="site-nav__close" type="button" popovertarget="site-nav" popovertargetaction="hide" aria-label="Закрыть меню"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+        </div>
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Оформить заявку</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a class="site-nav__phone" href="tel:+74951234567"><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+7 (495) 123-45-67</a>
+      </nav>
+      <a class="site-header__phone" href="tel:+74951234567"><svg class="site-header__phone-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+7 (495) 123-45-67</a>
+    </div>
+  </header>
+
+  <main class="page-main" id="main" tabindex="-1">
+    <div class="container">
+      <section class="result" aria-labelledby="result-title">
+        <svg class="result__icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.8 2.8L16.5 9"/></svg>
+        <h1 class="result__title" id="result-title">Заявка отправлена</h1>
+        <p class="result__text">Спасибо! Консультант SVR перезвонит в&nbsp;течение 15&nbsp;минут в&nbsp;рабочее время: пн–пт 10:00–21:00, сб–вс 11:00–20:00.</p>
+        <p class="result__note">Это учебный проект: данные формы никуда не&nbsp;отправляются.</p>
+        <div class="result__actions">
+          <a class="button button--primary" href="catalog.html">Вернуться в каталог</a>
+          <a class="button button--secondary" href="index.html">На главную</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner container">
+      <div class="site-footer__brand">
+        <a class="logo logo--light" href="index.html" aria-label="SVR — на главную">SVR</a>
+        <p class="site-footer__text">Собираем игровые ПК, продаём ноутбуки, наушники и периферию. Каждую сборку перед выдачей тестируем сутки.</p>
+      </div>
+      <nav class="site-footer__col" aria-label="Страницы сайта">
+        <h2 class="site-footer__title">Страницы</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html">Главная</a></li>
+            <li><a class="site-footer__link" href="catalog.html">Каталог</a></li>
+            <li><a class="site-footer__link" href="order.html">Оформить заявку</a></li>
+            <li><a class="site-footer__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <nav class="site-footer__col" aria-label="Категории каталога">
+        <h2 class="site-footer__title">Каталог</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="catalog.html#laptops">Ноутбуки</a></li>
+            <li><a class="site-footer__link" href="catalog.html#builds">Игровые ПК</a></li>
+            <li><a class="site-footer__link" href="catalog.html#audio">Наушники</a></li>
+            <li><a class="site-footer__link" href="catalog.html#gear">Периферия</a></li>
+        </ul>
+      </nav>
+      <nav class="site-footer__col" aria-label="Разделы главной страницы">
+        <h2 class="site-footer__title">На главной</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html#advantages">Почему SVR</a></li>
+            <li><a class="site-footer__link" href="index.html#popular">Популярное</a></li>
+            <li><a class="site-footer__link" href="index.html#contacts">Шоурум</a></li>
+        </ul>
+      </nav>
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Связаться</h2>
+        <address class="site-footer__address">
+          <a class="site-footer__link" href="tel:+74951234567">+7 (495) 123-45-67</a><br>
+          <a class="site-footer__link" href="mailto:hello@svr-store.ru">hello@svr-store.ru</a><br>
+          Москва, ул. Электрозаводская, 21
+        </address>
+      </div>
+    </div>
+    <div class="site-footer__bottom container">
+      <p>© 2026 SVR. Учебный проект: Кирбитов А. Е., группа ЭФБО-04-25.</p>
+      <p>Фото: Unsplash, Wikimedia Commons, Flickr — авторы и лицензии указаны в README.</p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Наверх"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m18 15-6-6-6 6"/></svg></a>
+</body>
+</html>

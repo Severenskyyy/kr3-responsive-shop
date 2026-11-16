@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVR — игровые ПК, ноутбуки, наушники и периферия</title>
+  <meta name="description" content="Магазин SVR: собственные сборки игровых ПК со стресс-тестом 24 часа, ноутбуки ASUS, Apple и Dell, наушники и периферия. Шоурум в Москве.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+  <header class="site-header" id="top">
+    <div class="site-header__inner container">
+      <a class="logo site-header__logo" href="index.html" aria-label="SVR — на главную">SVR</a>
+      <!-- Мобильное меню: Popover API, работает без JavaScript -->
+      <button class="site-header__menu-button" type="button" popovertarget="site-nav">
+        <svg class="site-header__menu-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Меню</span>
+      </button>
+      <nav class="site-nav site-header__nav" id="site-nav" popover aria-label="Основное меню">
+        <div class="site-nav__head">
+          <span class="site-nav__caption">Меню</span>
+          <button class="site-nav__close" type="button" popovertarget="site-nav" popovertargetaction="hide" aria-label="Закрыть меню"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+        </div>
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="index.html" aria-current="page">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Оформить заявку</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a class="site-nav__phone" href="tel:+74951234567"><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+7 (495) 123-45-67</a>
+      </nav>
+      <a class="site-header__phone" href="tel:+74951234567"><svg class="site-header__phone-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+7 (495) 123-45-67</a>
+    </div>
+  </header>
+
+  <main class="page-main" id="main" tabindex="-1">
+    <!-- Hero-блок -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <h1 class="hero__title" id="hero-title">Собираем игровые ПК и&nbsp;24&nbsp;часа тестируем каждый</h1>
+          <p class="hero__lead">Сборки SVR, ноутбуки ASUS, Apple и Dell, наушники и&nbsp;периферия. Консультант подберёт конфигурацию под ваши игры и&nbsp;бюджет.</p>
+          <div class="hero__actions">
+            <a class="button button--primary button--large" href="catalog.html">Перейти в каталог</a>
+            <a class="button button--light button--large" href="product.html">Смотреть SVR Gamer</a>
+          </div>
+          <ul class="hero__facts">
+            <li class="hero__fact">Гарантия на сборки 3&nbsp;года</li>
+            <li class="hero__fact">Доставка по Москве на следующий день</li>
+            <li class="hero__fact">Trade-in старого железа</li>
+          </ul>
+        </div>
+        <div class="hero__media">
+          <!-- Art direction: на телефоне — горизонтальный кадр крупным планом, на планшете и десктопе — вертикальный -->
+          <picture>
+            <source media="(min-width: 768px)" type="image/avif" srcset="images/hero-480.avif 480w, images/hero-720.avif 720w, images/hero-960.avif 960w" sizes="(min-width: 1280px) 520px, 42vw">
+            <source media="(min-width: 768px)" type="image/webp" srcset="images/hero-480.webp 480w, images/hero-720.webp 720w, images/hero-960.webp 960w" sizes="(min-width: 1280px) 520px, 42vw">
+            <source media="(min-width: 768px)" srcset="images/hero-480.jpg 480w, images/hero-720.jpg 720w, images/hero-960.jpg 960w" sizes="(min-width: 1280px) 520px, 42vw">
+            <source type="image/avif" srcset="images/hero-mobile-480.avif 480w, images/hero-mobile-800.avif 800w, images/hero-mobile-1200.avif 1200w" sizes="100vw">
+            <source type="image/webp" srcset="images/hero-mobile-480.webp 480w, images/hero-mobile-800.webp 800w, images/hero-mobile-1200.webp 1200w" sizes="100vw">
+            <img class="hero__image" src="images/hero-mobile-800.jpg" srcset="images/hero-mobile-480.jpg 480w, images/hero-mobile-800.jpg 800w, images/hero-mobile-1200.jpg 1200w" sizes="100vw"
+                 width="800" height="600" alt="Игровой ПК SVR Gamer: стеклянный корпус, вентиляторы светятся красным" fetchpriority="high">
+          </picture>
+          <aside class="spec-plate hero__plate" aria-labelledby="plate-title">
+            <h2 class="spec-plate__title" id="plate-title">SVR Gamer</h2>
+            <dl class="spec-plate__list">
+              <div class="spec-plate__row"><dt>Процессор</dt><dd>Core i7-9700K</dd></div>
+              <div class="spec-plate__row"><dt>Видеокарта</dt><dd>RTX 2070 SUPER</dd></div>
+              <div class="spec-plate__row"><dt>Память</dt><dd>32&nbsp;ГБ DDR4</dd></div>
+            </dl>
+            <p class="spec-plate__price">119&nbsp;990&nbsp;₽</p>
+            <a class="spec-plate__link" href="product.html">Подробнее о сборке</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Категории: ссылки ведут в каталог с уже включённым фильтром -->
+    <section class="section" aria-labelledby="categories-title">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title" id="categories-title">Категории</h2>
+          <p class="section__text">Всё из каталога стоит в&nbsp;шоуруме — можно прийти и&nbsp;попробовать.</p>
+        </div>
+        <ul class="category-grid">
+          <li class="category-grid__item">
+            <a class="category-card" href="catalog.html#laptops">
+              <picture>
+                <source type="image/avif" srcset="images/c-laptops-400.avif 400w, images/c-laptops-731.avif 731w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <source type="image/webp" srcset="images/c-laptops-400.webp 400w, images/c-laptops-731.webp 731w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <img class="category-card__image" src="images/c-laptops-731.jpg" srcset="images/c-laptops-400.jpg 400w, images/c-laptops-731.jpg 731w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw"
+                     width="800" height="800" alt="" loading="lazy">
+              </picture>
+              <span class="category-card__body">
+                <span class="category-card__title">Ноутбуки</span>
+                <span class="category-card__text">Игровые и для учёбы</span>
+                <span class="category-card__count">3&nbsp;модели</span>
+              </span>
+            </a>
+          </li>
+          <li class="category-grid__item">
+            <a class="category-card" href="catalog.html#builds">
+              <picture>
+                <source type="image/avif" srcset="images/c-pc-400.avif 400w, images/c-pc-800.avif 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <source type="image/webp" srcset="images/c-pc-400.webp 400w, images/c-pc-800.webp 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <img class="category-card__image" src="images/c-pc-800.jpg" srcset="images/c-pc-400.jpg 400w, images/c-pc-800.jpg 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw"
+                     width="800" height="800" alt="" loading="lazy">
+              </picture>
+              <span class="category-card__body">
+                <span class="category-card__title">Игровые ПК</span>
+                <span class="category-card__text">Сборки SVR</span>
+                <span class="category-card__count">3&nbsp;модели</span>
+              </span>
+            </a>
+          </li>
+          <li class="category-grid__item">
+            <a class="category-card" href="catalog.html#audio">
+              <picture>
+                <source type="image/avif" srcset="images/c-audio-400.avif 400w, images/c-audio-800.avif 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <source type="image/webp" srcset="images/c-audio-400.webp 400w, images/c-audio-800.webp 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <img class="category-card__image" src="images/c-audio-800.jpg" srcset="images/c-audio-400.jpg 400w, images/c-audio-800.jpg 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw"
+                     width="800" height="800" alt="" loading="lazy">
+              </picture>
+              <span class="category-card__body">
+                <span class="category-card__title">Наушники</span>
+                <span class="category-card__text">Гарнитуры и TWS</span>
+                <span class="category-card__count">3&nbsp;модели</span>
+              </span>
+            </a>
+          </li>
+          <li class="category-grid__item">
+            <a class="category-card" href="catalog.html#gear">
+              <picture>
+                <source type="image/avif" srcset="images/c-gear-400.avif 400w, images/c-gear-800.avif 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <source type="image/webp" srcset="images/c-gear-400.webp 400w, images/c-gear-800.webp 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw">
+                <img class="category-card__image" src="images/c-gear-800.jpg" srcset="images/c-gear-400.jpg 400w, images/c-gear-800.jpg 800w" sizes="(min-width: 1280px) 290px, (min-width: 768px) 25vw, 50vw"
+                     width="800" height="800" alt="" loading="lazy">
+              </picture>
+              <span class="category-card__body">
+                <span class="category-card__title">Периферия</span>
+                <span class="category-card__text">Мыши, клавиатуры, геймпады</span>
+                <span class="category-card__count">3&nbsp;модели</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Преимущества (якорь #advantages) -->
+    <section class="section section--tinted" id="advantages" aria-labelledby="advantages-title">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title" id="advantages-title">Почему SVR</h2>
+          <p class="section__text">Мы не просто продаём железо: проверяем, настраиваем и&nbsp;отвечаем за сборку три года.</p>
+        </div>
+        <ul class="features">
+          <li class="features__item">
+            <svg class="features__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            <h3 class="features__title">Сутки под нагрузкой</h3>
+            <p class="features__text">Каждую сборку 24&nbsp;часа держим в стресс-тесте и прикладываем к заказу отчёт с температурами.</p>
+          </li>
+          <li class="features__item">
+            <svg class="features__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3 class="features__title">Гарантия 3 года на сборки</h3>
+            <p class="features__text">Если комплектующая выйдет из строя, заменим её в шоуруме за один визит.</p>
+          </li>
+          <li class="features__item">
+            <svg class="features__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M1 4h14v12H1z"/><path d="M15 9h4l3 3v4h-7"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="18.5" cy="18.5" r="2"/></svg>
+            <h3 class="features__title">Доставка по Москве за день</h3>
+            <p class="features__text">Привезём заказ на следующий день. ПК едут с транспортировочным вкладышем внутри корпуса.</p>
+          </li>
+          <li class="features__item">
+            <svg class="features__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg>
+            <h3 class="features__title">Trade-in старого железа</h3>
+            <p class="features__text">Оценим вашу видеокарту или ноутбук и учтём стоимость в новой покупке.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Популярные товары (якорь #popular) -->
+    <section class="section" id="popular" aria-labelledby="popular-title">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title" id="popular-title">Популярное</h2>
+          <a class="section__link" href="catalog.html">Весь каталог</a>
+        </div>
+        <div class="product-grid product-grid--four">
+        <article class="product-card product-card--hit" data-category="builds">
+          <div class="product-card__media">
+            <picture>
+              <source type="image/avif" srcset="images/p-svr-gamer-480.avif 480w, images/p-svr-gamer-800.avif 800w, images/p-svr-gamer-1200.avif 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <source type="image/webp" srcset="images/p-svr-gamer-480.webp 480w, images/p-svr-gamer-800.webp 800w, images/p-svr-gamer-1200.webp 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <img class="product-card__image" src="images/p-svr-gamer-800.jpg" srcset="images/p-svr-gamer-480.jpg 480w, images/p-svr-gamer-800.jpg 800w, images/p-svr-gamer-1200.jpg 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw"
+                   width="800" height="600" alt="Игровой ПК SVR Gamer в корпусе со стеклянными панелями, вентиляторы светятся красным" loading="lazy">
+            </picture>
+            <span class="badge badge--hit product-card__badge">Хит</span>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">Игровой ПК</p>
+            <h3 class="product-card__title">SVR Gamer</h3>
+            <ul class="product-card__specs">
+            <li>Intel Core i7-9700K</li>
+            <li>MSI GeForce RTX 2070 SUPER</li>
+            <li>32&nbsp;ГБ DDR4, SSD 1&nbsp;ТБ</li>
+            </ul>
+            <div class="product-card__footer">
+              <p class="product-card__price"><span class="visually-hidden">Цена: </span>119&nbsp;990&nbsp;₽</p>
+              <a class="button button--secondary button--small product-card__button" href="product.html">Подробнее<span class="visually-hidden"> про SVR Gamer</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card product-card--hit" data-category="laptops">
+          <div class="product-card__media">
+            <picture>
+              <source type="image/avif" srcset="images/p-macbook-air-m2-480.avif 480w, images/p-macbook-air-m2-800.avif 800w, images/p-macbook-air-m2-1143.avif 1143w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <source type="image/webp" srcset="images/p-macbook-air-m2-480.webp 480w, images/p-macbook-air-m2-800.webp 800w, images/p-macbook-air-m2-1143.webp 1143w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <img class="product-card__image" src="images/p-macbook-air-m2-800.jpg" srcset="images/p-macbook-air-m2-480.jpg 480w, images/p-macbook-air-m2-800.jpg 800w, images/p-macbook-air-m2-1143.jpg 1143w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw"
+                   width="800" height="600" alt="Ноутбук Apple MacBook Air M2 цвета «тёмная ночь» с открытой крышкой" loading="lazy">
+            </picture>
+            <span class="badge badge--hit product-card__badge">Хит</span>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">Ноутбук</p>
+            <h3 class="product-card__title">Apple MacBook Air 13 M2</h3>
+            <ul class="product-card__specs">
+            <li>13,6″ Liquid Retina, 2560×1664</li>
+            <li>Apple M2, 8&nbsp;ГБ</li>
+            <li>SSD 256&nbsp;ГБ, вес 1,24&nbsp;кг</li>
+            </ul>
+            <div class="product-card__footer">
+              <p class="product-card__price"><span class="visually-hidden">Цена: </span>89&nbsp;990&nbsp;₽</p>
+              <a class="button button--secondary button--small product-card__button" href="product.html">Подробнее<span class="visually-hidden"> про Apple MacBook Air 13 M2</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card product-card--hit" data-category="audio">
+          <div class="product-card__media">
+            <picture>
+              <source type="image/avif" srcset="images/p-sony-wh-1000xm4-480.avif 480w, images/p-sony-wh-1000xm4-800.avif 800w, images/p-sony-wh-1000xm4-1200.avif 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <source type="image/webp" srcset="images/p-sony-wh-1000xm4-480.webp 480w, images/p-sony-wh-1000xm4-800.webp 800w, images/p-sony-wh-1000xm4-1200.webp 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <img class="product-card__image" src="images/p-sony-wh-1000xm4-800.jpg" srcset="images/p-sony-wh-1000xm4-480.jpg 480w, images/p-sony-wh-1000xm4-800.jpg 800w, images/p-sony-wh-1000xm4-1200.jpg 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw"
+                   width="800" height="600" alt="Чёрные полноразмерные наушники Sony WH-1000XM4 на бежевом фоне" loading="lazy">
+            </picture>
+            <span class="badge badge--hit product-card__badge">Хит</span>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">Беспроводные наушники</p>
+            <h3 class="product-card__title">Sony WH-1000XM4</h3>
+            <ul class="product-card__specs">
+            <li>Активное шумоподавление</li>
+            <li>До 30&nbsp;часов работы</li>
+            <li>Bluetooth 5.0, LDAC</li>
+            </ul>
+            <div class="product-card__footer">
+              <p class="product-card__price"><span class="visually-hidden">Цена: </span>24&nbsp;990&nbsp;₽</p>
+              <a class="button button--secondary button--small product-card__button" href="product.html">Подробнее<span class="visually-hidden"> про Sony WH-1000XM4</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card product-card--sale" data-category="gear">
+          <div class="product-card__media">
+            <picture>
+              <source type="image/avif" srcset="images/p-logitech-g502-480.avif 480w, images/p-logitech-g502-800.avif 800w, images/p-logitech-g502-1200.avif 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <source type="image/webp" srcset="images/p-logitech-g502-480.webp 480w, images/p-logitech-g502-800.webp 800w, images/p-logitech-g502-1200.webp 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw">
+              <img class="product-card__image" src="images/p-logitech-g502-800.jpg" srcset="images/p-logitech-g502-480.jpg 480w, images/p-logitech-g502-800.jpg 800w, images/p-logitech-g502-1200.jpg 1200w" sizes="(min-width: 1280px) 300px, (min-width: 1024px) 26vw, (min-width: 480px) 50vw, 100vw"
+                   width="800" height="600" alt="Проводная игровая мышь Logitech G502 HERO с подсвеченным логотипом" loading="lazy">
+            </picture>
+            <span class="badge badge--sale product-card__badge">−15&nbsp;%</span>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">Игровая мышь</p>
+            <h3 class="product-card__title">Logitech G502 HERO</h3>
+            <ul class="product-card__specs">
+            <li>Сенсор HERO 25K</li>
+            <li>11 программируемых кнопок</li>
+            <li>Грузы 5 × 3,6&nbsp;г</li>
+            </ul>
+            <div class="product-card__footer">
+              <p class="product-card__price"><span class="visually-hidden">Цена: </span>5&nbsp;490&nbsp;₽ <s class="product-card__old-price"><span class="visually-hidden">Цена без скидки: </span>6&nbsp;490&nbsp;₽</s></p>
+              <a class="button button--secondary button--small product-card__button" href="product.html">Подробнее<span class="visually-hidden"> про Logitech G502 HERO</span></a>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Призыв оставить заявку -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="cta__inner container">
+        <div class="cta__content">
+          <h2 class="cta__title" id="cta-title">Не знаете, какую сборку выбрать?</h2>
+          <p class="cta__text">Оставьте заявку: консультант подберёт конфигурацию под ваши игры и&nbsp;бюджет и&nbsp;перезвонит за 15&nbsp;минут.</p>
+        </div>
+        <a class="button button--primary button--large" href="order.html">Оставить заявку</a>
+      </div>
+    </section>
+
+    <!-- Контакты шоурума (якорь #contacts) -->
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
+      <div class="container showroom">
+        <div class="showroom__content">
+          <h2 class="section__title" id="contacts-title">Шоурум на Электрозаводской</h2>
+          <p class="section__text">5 минут пешком от метро «Электрозаводская». Все сборки из каталога стоят включёнными — можно запустить любимую игру.</p>
+        </div>
+        <dl class="showroom__list">
+          <div class="showroom__row"><dt><svg class="showroom__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Адрес</dt><dd>Москва, ул. Электрозаводская, 21</dd></div>
+          <div class="showroom__row"><dt><svg class="showroom__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Часы работы</dt><dd>Пн–пт 10:00–21:00, сб–вс 11:00–20:00</dd></div>
+          <div class="showroom__row"><dt><svg class="showroom__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Телефон</dt><dd><a href="tel:+74951234567">+7 (495) 123-45-67</a></dd></div>
+        </dl>
+        <a class="button button--secondary" href="contacts.html">Все контакты и&nbsp;карта</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner container">
+      <div class="site-footer__brand">
+        <a class="logo logo--light" href="index.html" aria-label="SVR — на главную">SVR</a>
+        <p class="site-footer__text">Собираем игровые ПК, продаём ноутбуки, наушники и периферию. Каждую сборку перед выдачей тестируем сутки.</p>
+      </div>
+      <nav class="site-footer__col" aria-label="Страницы сайта">
+        <h2 class="site-footer__title">Страницы</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html">Главная</a></li>
+            <li><a class="site-footer__link" href="catalog.html">Каталог</a></li>
+            <li><a class="site-footer__link" href="order.html">Оформить заявку</a></li>
+            <li><a class="site-footer__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <nav class="site-footer__col" aria-label="Категории каталога">
+        <h2 class="site-footer__title">Каталог</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="catalog.html#laptops">Ноутбуки</a></li>
+            <li><a class="site-footer__link" href="catalog.html#builds">Игровые ПК</a></li>
+            <li><a class="site-footer__link" href="catalog.html#audio">Наушники</a></li>
+            <li><a class="site-footer__link" href="catalog.html#gear">Периферия</a></li>
+        </ul>
+      </nav>
+      <nav class="site-footer__col" aria-label="Разделы главной страницы">
+        <h2 class="site-footer__title">На главной</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html#advantages">Почему SVR</a></li>
+            <li><a class="site-footer__link" href="index.html#popular">Популярное</a></li>
+            <li><a class="site-footer__link" href="index.html#contacts">Шоурум</a></li>
+        </ul>
+      </nav>
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Связаться</h2>
+        <address class="site-footer__address">
+          <a class="site-footer__link" href="tel:+74951234567">+7 (495) 123-45-67</a><br>
+          <a class="site-footer__link" href="mailto:hello@svr-store.ru">hello@svr-store.ru</a><br>
+          Москва, ул. Электрозаводская, 21
+        </address>
+      </div>
+    </div>
+    <div class="site-footer__bottom container">
+      <p>© 2026 SVR. Учебный проект: Кирбитов А. Е., группа ЭФБО-04-25.</p>
+      <p>Фото: Unsplash, Wikimedia Commons, Flickr — авторы и лицензии указаны в README.</p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Наверх"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m18 15-6-6-6 6"/></svg></a>
+</body>
+</html>

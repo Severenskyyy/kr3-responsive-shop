@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVR Gamer — игровой ПК на Core i7-9700K и RTX 2070 SUPER | SVR</title>
+  <meta name="description" content="Игровой ПК SVR Gamer: Intel Core i7-9700K, MSI GeForce RTX 2070 SUPER, 32 ГБ G.Skill Trident Z RGB, СЖО Thermaltake 360 мм. Стресс-тест 24 часа, гарантия 3 года.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+  <header class="site-header" id="top">
+    <div class="site-header__inner container">
+      <a class="logo site-header__logo" href="index.html" aria-label="SVR — на главную">SVR</a>
+      <!-- Мобильное меню: Popover API, работает без JavaScript -->
+      <button class="site-header__menu-button" type="button" popovertarget="site-nav">
+        <svg class="site-header__menu-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Меню</span>
+      </button>
+      <nav class="site-nav site-header__nav" id="site-nav" popover aria-label="Основное меню">
+        <div class="site-nav__head">
+          <span class="site-nav__caption">Меню</span>
+          <button class="site-nav__close" type="button" popovertarget="site-nav" popovertargetaction="hide" aria-label="Закрыть меню"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+        </div>
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="catalog.html" aria-current="page">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Оформить заявку</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a class="site-nav__phone" href="tel:+74951234567"><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+7 (495) 123-45-67</a>
+      </nav>
+      <a class="site-header__phone" href="tel:+74951234567"><svg class="site-header__phone-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+7 (495) 123-45-67</a>
+    </div>
+  </header>
+
+  <main class="page-main" id="main" tabindex="-1">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <ol class="breadcrumbs__list">
+          <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="index.html">Главная</a></li>
+          <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="catalog.html">Каталог</a></li>
+          <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="catalog.html#builds">Игровые ПК</a></li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">SVR Gamer</span></li>
+        </ol>
+      </nav>
+
+      <article class="product">
+        <div class="product__top">
+          <!-- Галерея без JavaScript: radio-кнопки + селектор :checked ~ -->
+          <div class="gallery product__gallery">
+            <input class="gallery__radio visually-hidden" type="radio" name="gallery" id="gallery-1" checked>
+            <input class="gallery__radio visually-hidden" type="radio" name="gallery" id="gallery-2">
+            <input class="gallery__radio visually-hidden" type="radio" name="gallery" id="gallery-3">
+            <input class="gallery__radio visually-hidden" type="radio" name="gallery" id="gallery-4">
+            <div class="gallery__stage">
+              <figure class="gallery__slide">
+                <picture>
+                  <source type="image/avif" srcset="images/g-gamer-red-480.avif 480w, images/g-gamer-red-800.avif 800w, images/g-gamer-red-1200.avif 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <source type="image/webp" srcset="images/g-gamer-red-480.webp 480w, images/g-gamer-red-800.webp 800w, images/g-gamer-red-1200.webp 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <img class="gallery__image" src="images/g-gamer-red-800.jpg" srcset="images/g-gamer-red-480.jpg 480w, images/g-gamer-red-800.jpg 800w, images/g-gamer-red-1200.jpg 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw"
+                       width="800" height="800" alt="SVR Gamer с красной подсветкой вентиляторов">
+                </picture>
+                <figcaption class="gallery__caption">Подсветка: красный режим</figcaption>
+              </figure>
+              <figure class="gallery__slide">
+                <picture>
+                  <source type="image/avif" srcset="images/g-gamer-blue-480.avif 480w, images/g-gamer-blue-800.avif 800w, images/g-gamer-blue-1200.avif 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <source type="image/webp" srcset="images/g-gamer-blue-480.webp 480w, images/g-gamer-blue-800.webp 800w, images/g-gamer-blue-1200.webp 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <img class="gallery__image" src="images/g-gamer-blue-800.jpg" srcset="images/g-gamer-blue-480.jpg 480w, images/g-gamer-blue-800.jpg 800w, images/g-gamer-blue-1200.jpg 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw"
+                       width="800" height="800" alt="SVR Gamer с синей подсветкой вентиляторов" loading="lazy">
+                </picture>
+                <figcaption class="gallery__caption">Подсветка: синий режим</figcaption>
+              </figure>
+              <figure class="gallery__slide">
+                <picture>
+                  <source type="image/avif" srcset="images/g-gamer-inside-480.avif 480w, images/g-gamer-inside-800.avif 800w, images/g-gamer-inside-1200.avif 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <source type="image/webp" srcset="images/g-gamer-inside-480.webp 480w, images/g-gamer-inside-800.webp 800w, images/g-gamer-inside-1200.webp 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <img class="gallery__image" src="images/g-gamer-inside-800.jpg" srcset="images/g-gamer-inside-480.jpg 480w, images/g-gamer-inside-800.jpg 800w, images/g-gamer-inside-1200.jpg 1200w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw"
+                       width="800" height="800" alt="Внутри SVR Gamer: материнская плата ASUS ROG, СЖО Thermaltake и память G.Skill Trident Z RGB" loading="lazy">
+                </picture>
+                <figcaption class="gallery__caption">Внутри: ASUS ROG, Thermaltake, G.Skill</figcaption>
+              </figure>
+              <figure class="gallery__slide">
+                <picture>
+                  <source type="image/avif" srcset="images/g-gamer-detail-480.avif 480w, images/g-gamer-detail-733.avif 733w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <source type="image/webp" srcset="images/g-gamer-detail-480.webp 480w, images/g-gamer-detail-733.webp 733w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw">
+                  <img class="gallery__image" src="images/g-gamer-detail-733.jpg" srcset="images/g-gamer-detail-480.jpg 480w, images/g-gamer-detail-733.jpg 733w" sizes="(min-width: 1280px) 580px, (min-width: 1024px) 46vw, 100vw"
+                       width="800" height="800" alt="Помпа СЖО Thermaltake и модули памяти G.Skill Trident Z RGB крупным планом" loading="lazy">
+                </picture>
+                <figcaption class="gallery__caption">Помпа Thermaltake и память Trident Z RGB</figcaption>
+              </figure>
+            </div>
+            <div class="gallery__thumbs">
+              <label class="gallery__thumb" for="gallery-1"><img class="gallery__thumb-image" src="images/g-gamer-red-480.jpg" width="96" height="96" alt="" loading="lazy"><span class="visually-hidden">Фото 1: Подсветка: красный режим</span></label>
+              <label class="gallery__thumb" for="gallery-2"><img class="gallery__thumb-image" src="images/g-gamer-blue-480.jpg" width="96" height="96" alt="" loading="lazy"><span class="visually-hidden">Фото 2: Подсветка: синий режим</span></label>
+              <label class="gallery__thumb" for="gallery-3"><img class="gallery__thumb-image" src="images/g-gamer-inside-480.jpg" width="96" height="96" alt="" loading="lazy"><span class="visually-hidden">Фото 3: Внутри: ASUS ROG, Thermaltake, G.Skill</span></label>
+              <label class="gallery__thumb" for="gallery-4"><img class="gallery__thumb-image" src="images/g-gamer-detail-480.jpg" width="96" height="96" alt="" loading="lazy"><span class="visually-hidden">Фото 4: Помпа Thermaltake и память Trident Z RGB</span></label>
+            </div>
+          </div>
+
+          <div class="product__info">
+            <span class="badge badge--hit">Хит продаж</span>
+            <p class="product__type">Игровой ПК</p>
+            <h1 class="product__title">SVR Gamer</h1>
+            <p class="product__lead">Сборка для игр в&nbsp;1440p и&nbsp;стримов. Внутри — материнская плата ASUS ROG, видеокарта MSI GeForce RTX 2070 SUPER, память G.Skill Trident Z RGB и&nbsp;СЖО Thermaltake на 360&nbsp;мм.</p>
+            <dl class="product__specs">
+              <div class="product__spec"><dt>Процессор</dt><dd>Intel Core i7-9700K, 8&nbsp;ядер</dd></div>
+              <div class="product__spec"><dt>Видеокарта</dt><dd>MSI GeForce RTX 2070 SUPER, 8&nbsp;ГБ</dd></div>
+              <div class="product__spec"><dt>Память</dt><dd>32&nbsp;ГБ G.Skill Trident Z RGB</dd></div>
+              <div class="product__spec"><dt>Охлаждение</dt><dd>СЖО Thermaltake, 360&nbsp;мм</dd></div>
+            </dl>
+            <div class="product__buy">
+              <p class="product__price">119&nbsp;990&nbsp;₽</p>
+              <p class="product__stock">В наличии: 3&nbsp;шт. в шоуруме</p>
+              <div class="product__actions">
+                <a class="button button--primary button--large" href="order.html">Оформить заявку</a>
+                <button class="button button--secondary button--large" type="button" commandfor="quick-order" command="show-modal">Купить в 1 клик</button>
+              </div>
+              <p class="product__note">Доставка по Москве — завтра. Самовывоз — сегодня после 15:00.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Якорное меню по разделам страницы -->
+        <nav class="page-nav" aria-label="Разделы страницы товара">
+          <ul class="page-nav__list">
+            <li class="page-nav__item"><a class="page-nav__link" href="#description">Описание</a></li>
+            <li class="page-nav__item"><a class="page-nav__link" href="#specs">Характеристики</a></li>
+            <li class="page-nav__item"><a class="page-nav__link" href="#compare">Сравнение сборок</a></li>
+            <li class="page-nav__item"><a class="page-nav__link" href="#testing">Как мы тестируем</a></li>
+          </ul>
+        </nav>
+
+        <div class="product__layout">
+          <div class="product__content">
+            <section class="product-section" id="description" aria-labelledby="description-title">
+              <h2 class="product-section__title" id="description-title">Описание</h2>
+              <p>SVR Gamer рассчитан на современные игры в&nbsp;разрешении 2560×1440 на высоких настройках. Восьмиядерный Intel Core i7-9700K не&nbsp;станет узким местом в&nbsp;киберспортивных шутерах, а&nbsp;RTX 2070 SUPER поддерживает трассировку лучей и&nbsp;DLSS.</p>
+              <p>Процессор охлаждает СЖО Thermaltake с&nbsp;радиатором 360&nbsp;мм: под нагрузкой система остаётся тихой. Подсветка вентиляторов Thermaltake и&nbsp;памяти G.Skill Trident Z RGB настраивается — на фото сборка в&nbsp;красном и&nbsp;синем режимах.</p>
+            </section>
+
+            <section class="product-section" id="specs" aria-labelledby="specs-title">
+              <h2 class="product-section__title" id="specs-title">Характеристики</h2>
+              <table class="spec-table">
+                <caption class="spec-table__caption">Комплектация SVR Gamer</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Параметр</th>
+                    <th scope="col">Значение</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <th scope="row">Процессор</th>
+                  <td data-label="Процессор">Intel Core i7-9700K, 8&nbsp;ядер, 3,6–4,9&nbsp;ГГц</td>
+                </tr>
+                <tr>
+                  <th scope="row">Материнская плата</th>
+                  <td data-label="Материнская плата">ASUS ROG STRIX Z390-E GAMING</td>
+                </tr>
+                <tr>
+                  <th scope="row">Видеокарта</th>
+                  <td data-label="Видеокарта">MSI GeForce RTX 2070 SUPER GAMING X TRIO, 8&nbsp;ГБ GDDR6</td>
+                </tr>
+                <tr>
+                  <th scope="row">Оперативная память</th>
+                  <td data-label="Оперативная память">G.Skill Trident Z RGB, 32&nbsp;ГБ (2 × 16&nbsp;ГБ) DDR4-3200</td>
+                </tr>
+                <tr>
+                  <th scope="row">Накопитель</th>
+                  <td data-label="Накопитель">SSD NVMe M.2, 1&nbsp;ТБ</td>
+                </tr>
+                <tr>
+                  <th scope="row">Охлаждение процессора</th>
+                  <td data-label="Охлаждение процессора">СЖО Thermaltake Floe Riing RGB 360</td>
+                </tr>
+                <tr>
+                  <th scope="row">Вентиляторы корпуса</th>
+                  <td data-label="Вентиляторы корпуса">Thermaltake Riing Plus RGB с подсветкой</td>
+                </tr>
+                <tr>
+                  <th scope="row">Блок питания</th>
+                  <td data-label="Блок питания">750&nbsp;Вт, сертификат 80 PLUS Gold</td>
+                </tr>
+                <tr>
+                  <th scope="row">Корпус</th>
+                  <td data-label="Корпус">Mid-Tower, панорамные панели из закалённого стекла</td>
+                </tr>
+                <tr>
+                  <th scope="row">Операционная система</th>
+                  <td data-label="Операционная система">Windows 11 Домашняя</td>
+                </tr>
+                <tr>
+                  <th scope="row">Гарантия</th>
+                  <td data-label="Гарантия">3 года на сборку</td>
+                </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <section class="product-section" id="compare" aria-labelledby="compare-title">
+              <h2 class="product-section__title" id="compare-title">Сравнение сборок SVR</h2>
+              <div class="table-wrapper" tabindex="0" role="region" aria-labelledby="compare-title">
+                <table class="compare-table">
+                  <caption class="compare-table__caption">Чем отличаются три сборки SVR</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Параметр</th>
+                    <th scope="col">SVR Start</th>
+                    <th scope="col" class="compare-table__current">SVR Gamer<span class="compare-table__mark">вы смотрите</span></th>
+                    <th scope="col">SVR Studio</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <th scope="row">Для каких задач</th>
+                    <td data-label="SVR Start">Игры в Full HD</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">Игры в 1440p и стримы</td>
+                    <td data-label="SVR Studio">3D, монтаж, рендер</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Процессор</th>
+                    <td data-label="SVR Start">Intel Core i5-9600K</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">Intel Core i7-9700K</td>
+                    <td data-label="SVR Studio">AMD Ryzen Threadripper 3960X</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Видеокарта</th>
+                    <td data-label="SVR Start">ASUS GeForce RTX 3060, 12&nbsp;ГБ</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">MSI GeForce RTX 2070 SUPER, 8&nbsp;ГБ</td>
+                    <td data-label="SVR Studio">XFX Radeon RX 6700 XT, 12&nbsp;ГБ</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Материнская плата</th>
+                    <td data-label="SVR Start">ASUS PRIME Z390-A</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">ASUS ROG STRIX Z390-E GAMING</td>
+                    <td data-label="SVR Studio">На чипсете AMD TRX40</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Оперативная память</th>
+                    <td data-label="SVR Start">16&nbsp;ГБ Corsair Vengeance LPX</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">32&nbsp;ГБ G.Skill Trident Z RGB</td>
+                    <td data-label="SVR Studio">64&nbsp;ГБ DDR4-3200</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Охлаждение процессора</th>
+                    <td data-label="SVR Start">Cooler Master Hyper 212 Black Edition</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">СЖО Thermaltake 360&nbsp;мм</td>
+                    <td data-label="SVR Studio">AMD Wraith Ripper</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Накопитель</th>
+                    <td data-label="SVR Start">SSD NVMe 1&nbsp;ТБ</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">SSD NVMe 1&nbsp;ТБ</td>
+                    <td data-label="SVR Studio">SSD NVMe 2&nbsp;ТБ</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Блок питания</th>
+                    <td data-label="SVR Start">650&nbsp;Вт, 80 PLUS Bronze</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">750&nbsp;Вт, 80 PLUS Gold</td>
+                    <td data-label="SVR Studio">850&nbsp;Вт, 80 PLUS Gold</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Корпус</th>
+                    <td data-label="SVR Start">Mid-Tower с сетчатой передней панелью</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">Mid-Tower со стеклянными панелями</td>
+                    <td data-label="SVR Studio">Lian Li</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Цена</th>
+                    <td data-label="SVR Start">64 990&nbsp;₽</td>
+                    <td class="compare-table__current" data-label="SVR Gamer">119 990&nbsp;₽</td>
+                    <td data-label="SVR Studio">219 990&nbsp;₽</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <section class="product-section" id="testing" aria-labelledby="testing-title">
+              <h2 class="product-section__title" id="testing-title">Как мы тестируем сборку</h2>
+              <ol class="steps">
+              <li class="steps__item"><h3 class="steps__title">Собираем и укладываем кабели</h3><p class="steps__text">Провода прячем за поддон материнской платы, на процессор наносим свежую термопасту.</p></li>
+              <li class="steps__item"><h3 class="steps__title">Сутки держим под нагрузкой</h3><p class="steps__text">24&nbsp;часа гоняем стресс-тест процессора и видеокарты и записываем температуры.</p></li>
+              <li class="steps__item"><h3 class="steps__title">Ставим систему и драйверы</h3><p class="steps__text">Чистая Windows 11, свежие драйверы и BIOS — после включения можно сразу играть.</p></li>
+              <li class="steps__item"><h3 class="steps__title">Упаковываем для дороги</h3><p class="steps__text">Внутрь корпуса кладём транспортировочный вкладыш, чтобы видеокарта не пострадала.</p></li>
+              </ol>
+            </section>
+          </div>
+
+          <aside class="info-box product__aside" aria-labelledby="delivery-title">
+            <h2 class="info-box__title" id="delivery-title">Доставка и&nbsp;гарантия</h2>
+            <ul class="info-box__list">
+              <li class="info-box__item"><svg class="info-box__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M1 4h14v12H1z"/><path d="M15 9h4l3 3v4h-7"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="18.5" cy="18.5" r="2"/></svg><span>Доставка по Москве — 990&nbsp;₽, от 50&nbsp;000&nbsp;₽ бесплатно</span></li>
+              <li class="info-box__item"><svg class="info-box__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Самовывоз из шоурума на Электрозаводской</span></li>
+              <li class="info-box__item"><svg class="info-box__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg><span>Гарантия на сборку — 3&nbsp;года</span></li>
+              <li class="info-box__item"><svg class="info-box__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><span>Отчёт стресс-теста в&nbsp;коробке</span></li>
+            </ul>
+            <a class="button button--primary button--block" href="order.html">Оформить заявку</a>
+          </aside>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner container">
+      <div class="site-footer__brand">
+        <a class="logo logo--light" href="index.html" aria-label="SVR — на главную">SVR</a>
+        <p class="site-footer__text">Собираем игровые ПК, продаём ноутбуки, наушники и периферию. Каждую сборку перед выдачей тестируем сутки.</p>
+      </div>
+      <nav class="site-footer__col" aria-label="Страницы сайта">
+        <h2 class="site-footer__title">Страницы</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html">Главная</a></li>
+            <li><a class="site-footer__link" href="catalog.html">Каталог</a></li>
+            <li><a class="site-footer__link" href="order.html">Оформить заявку</a></li>
+            <li><a class="site-footer__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <nav class="site-footer__col" aria-label="Категории каталога">
+        <h2 class="site-footer__title">Каталог</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="catalog.html#laptops">Ноутбуки</a></li>
+            <li><a class="site-footer__link" href="catalog.html#builds">Игровые ПК</a></li>
+            <li><a class="site-footer__link" href="catalog.html#audio">Наушники</a></li>
+            <li><a class="site-footer__link" href="catalog.html#gear">Периферия</a></li>
+        </ul>
+      </nav>
+      <nav class="site-footer__col" aria-label="Разделы главной страницы">
+        <h2 class="site-footer__title">На главной</h2>
+        <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html#advantages">Почему SVR</a></li>
+            <li><a class="site-footer__link" href="index.html#popular">Популярное</a></li>
+            <li><a class="site-footer__link" href="index.html#contacts">Шоурум</a></li>
+        </ul>
+      </nav>
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Связаться</h2>
+        <address class="site-footer__address">
+          <a class="site-footer__link" href="tel:+74951234567">+7 (495) 123-45-67</a><br>
+          <a class="site-footer__link" href="mailto:hello@svr-store.ru">hello@svr-store.ru</a><br>
+          Москва, ул. Электрозаводская, 21
+        </address>
+      </div>
+    </div>
+    <div class="site-footer__bottom container">
+      <p>© 2026 SVR. Учебный проект: Кирбитов А. Е., группа ЭФБО-04-25.</p>
+      <p>Фото: Unsplash, Wikimedia Commons, Flickr — авторы и лицензии указаны в README.</p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Наверх"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m18 15-6-6-6 6"/></svg></a>
+
+  <!-- Доступное модальное окно: <dialog> + Invoker Commands (command="show-modal").
+       Браузер сам переносит фокус внутрь, держит его в окне, закрывает по Esc и возвращает фокус на кнопку -->
+  <dialog class="modal" id="quick-order" aria-labelledby="quick-order-title" closedby="any">
+    <div class="modal__window">
+      <button class="modal__close" type="button" commandfor="quick-order" command="close" aria-label="Закрыть окно"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      <h2 class="modal__title" id="quick-order-title">Купить в 1 клик</h2>
+      <p class="modal__text">Оставьте телефон — перезвоним за 15&nbsp;минут и&nbsp;оформим SVR Gamer за вас.</p>
+        <form class="order-form order-form--compact" action="success.html" method="get">
+          <input type="hidden" name="product" value="SVR Gamer">
+          <div class="order-form__field">
+            <label class="order-form__label" for="quick-name">Имя <span class="order-form__required" aria-hidden="true">*</span></label>
+            <input class="order-form__input" id="quick-name" aria-describedby="quick-name-error" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Как к вам обращаться">
+            <p class="order-form__error" id="quick-name-error">Введите имя — хотя бы 2 буквы</p>
+          </div>
+          <div class="order-form__field">
+            <label class="order-form__label" for="quick-phone">Телефон <span class="order-form__required" aria-hidden="true">*</span></label>
+            <input class="order-form__input" id="quick-phone" aria-describedby="quick-phone-error" name="phone" type="tel" autocomplete="tel" required pattern="\+?[0-9\s\-\(\)]{10,18}" placeholder="+7 999 123-45-67">
+            <p class="order-form__error" id="quick-phone-error">Номер в формате +7 999 123-45-67</p>
+          </div>
+          <label class="order-form__check"><input class="order-form__checkbox" type="checkbox" name="consent" value="yes" required> Согласен на обработку персональных данных</label>
+          <button class="button button--primary button--block" type="submit">Жду звонка</button>
+        </form>
+    </div>
+  </dialog>
+</body>
+</html>
